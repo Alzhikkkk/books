@@ -1,0 +1,41 @@
+ .main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+ }
+.bookslider-item{
+     width: 25%;
+     display: flex !important;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     justify-content: center;
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-size: 20px;
+     
+
+}
+
+.bookslider-item img{
+    height: 200px;
+}
+
+.slick-slider{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 80% !important;
+}
+.slick-next{
+    right: 19px !important;
+    
+    background-color: black !important;
+    
+}
+
+
+.bookslider{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
